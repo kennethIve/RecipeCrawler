@@ -1359,3 +1359,5 @@ global code@https://quantcast.mgr.consensu.org/cmp.js:1:507
   (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
 
   phantomjs://platform/console++.js:263 in error
+[INFO  - 2020-02-11T08:49:46.935Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-02-11T08:49:46.935Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'c30557c0-4caa-11ea-aa68-973abe806dce', because windowless

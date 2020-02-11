@@ -34,6 +34,7 @@ url = 'https://www.bbcgoodfood.com/recipes/collection/easy'
 domain = 'https://www.bbcgoodfood.com'
 #location for phantomJs driver
 phanJsLocation = 'C:\\Users\\jpkhuang\\Desktop\\installer\\phantomjs-2.1.1-windows\\phantomjs-2.1.1-windows\\bin\\phantomjs'
+chromeLocation = 'C:'
 #location to store the json
 location = "C:\\Users\\jpkhuang\\Desktop\\result.json"
 counter = 1
@@ -41,7 +42,9 @@ recipeList = []
 #req = requests.get(url)
 #print(req.text)
 driver = webdriver.PhantomJS(executable_path=phanJsLocation)
+#driver = webdriver.Chrome(executable_path=chromeLocation)
 driver.get(url)
+driver.find
 # get the home page of the page of the recipe page
 print(driver.current_url)
 page = driver.page_source
