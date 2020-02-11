@@ -1,0 +1,1361 @@
+[INFO  - 2020-02-11T08:44:46.689Z] GhostDriver - Main - running on port 52490
+[INFO  - 2020-02-11T08:44:48.832Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-02-11T08:44:48.832Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.customHeaders:  - {}
+[INFO  - 2020-02-11T08:44:48.832Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-02-11T08:44:48.832Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c30557c0-4caa-11ea-aa68-973abe806dce
+[ERROR - 2020-02-11T08:44:50.347Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:50.347Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:50.348Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:50.348Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:50.389Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: Error running pending call: TypeError: undefined is not a constructor (evaluating '["global","service","global group","service group"].includes(e)')
+isValidValue@https://quantcast.mgr.consensu.org/cmp.js:1:24299
+initializeConfig@https://quantcast.mgr.consensu.org/cmp.js:1:44724
+init@https://quantcast.mgr.consensu.org/cmp.js:1:412857
+t@https://quantcast.mgr.consensu.org/cmp.js:1:423770
+executePendingCalls@https://quantcast.mgr.consensu.org/cmp.js:1:2871
+https://quantcast.mgr.consensu.org/cmp.js:1:213431
+t@https://quantcast.mgr.consensu.org/cmp.js:1:114
+https://quantcast.mgr.consensu.org/cmp.js:1:498
+global code@https://quantcast.mgr.consensu.org/cmp.js:1:507
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:50.389Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  r (https://quantcast.mgr.consensu.org/cmp.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:51.621Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:51.621Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:51.765Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:51.765Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:53.388Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:53.388Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:55.031Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:55.031Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:55.032Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:55.032Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:55.102Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:55.102Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:55.106Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:55.106Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:58.194Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 't.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:58.194Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  o (https://cdn.jwplayer.com/libraries/KQxbOSUl.js:11)
+  i (https://cdn.jwplayer.com/libraries/KQxbOSUl.js:11)
+  init (https://cdn.jwplayer.com/libraries/KQxbOSUl.js:11)
+  setup (https://cdn.jwplayer.com/libraries/KQxbOSUl.js:11)
+  (anonymous function) (https://cdn.jwplayer.com/libraries/KQxbOSUl.js:11)
+  setupTag (https://www.bbcgoodfood.com/recipes/easy-butter-chicken:86)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:59.063Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:59.063Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:59.574Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:59.574Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:59.574Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:59.574Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:59.891Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:59.891Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:59.943Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:44:59.943Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:02.623Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:02.623Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:03.487Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:03.487Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:03.487Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:03.488Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:03.638Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:03.638Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:03.689Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:03.689Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:05.558Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:05.558Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:06.395Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:06.395Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:06.396Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:06.396Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:06.437Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:06.437Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:06.441Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:06.441Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:07.421Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not an object (evaluating 'new o.URL(o.document.currentScript.src).hash.indexOf')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:07.421Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+  e (https://video.unrulymedia.com/native/native-loader.js:1)
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:08.397Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:08.397Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:09.262Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:09.262Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:09.263Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:09.263Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:09.305Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:09.305Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:09.325Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:09.325Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:11.215Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:11.215Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:13.003Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:13.003Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:13.004Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:13.004Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:13.047Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:13.047Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:13.091Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:13.092Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:15.592Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:15.592Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:16.540Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:16.540Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:16.541Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:16.541Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:16.570Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:16.570Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:16.600Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:16.600Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:17.491Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not an object (evaluating 'new o.URL(o.document.currentScript.src).hash.indexOf')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:17.491Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+  e (https://video.unrulymedia.com/native/native-loader.js:1)
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:18.673Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:18.673Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:20.379Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:20.379Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:20.384Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:20.384Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:20.690Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:20.691Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:20.733Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:20.733Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:22.881Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:22.881Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:24.407Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:24.407Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:24.433Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:24.433Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:24.434Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:24.434Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:24.512Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:24.512Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:26.566Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:26.566Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:27.285Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:27.285Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:27.286Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:27.286Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:27.485Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:27.485Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:27.508Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:27.508Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:28.175Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not an object (evaluating 'new o.URL(o.document.currentScript.src).hash.indexOf')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:28.175Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+  e (https://video.unrulymedia.com/native/native-loader.js:1)
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:29.434Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:29.434Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:30.800Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:30.801Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:30.801Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:30.801Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:30.830Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:30.831Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:30.861Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:30.861Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:33.045Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:33.045Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:34.102Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:34.103Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:34.110Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:34.110Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:34.318Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:34.318Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:34.338Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:34.338Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:36.329Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:36.329Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:36.912Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:36.912Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:36.912Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:36.912Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:37.127Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:37.127Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:37.152Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:37.152Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:38.571Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:38.571Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:39.247Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:39.248Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:39.248Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:39.248Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:39.450Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:39.450Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:39.487Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:39.487Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:41.032Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:41.032Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:43.074Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:43.074Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:43.075Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:43.075Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:43.103Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:43.103Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:43.131Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:43.131Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:44.567Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:44.567Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:44.904Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: brightcove
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:44.905Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://www.bbcgoodfood.com/recipes/easy-rocky-road:408)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:44.905Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: brightcove
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:44.905Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://www.bbcgoodfood.com/recipes/easy-rocky-road:413)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:45.747Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:45.747Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:45.748Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:45.748Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:45.908Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:45.908Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:45.926Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:45.926Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:48.132Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:48.132Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:48.878Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:48.879Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:48.884Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:48.884Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:49.032Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:49.032Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:49.119Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:49.119Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:53.684Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:53.684Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:53.688Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:53.688Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:54.046Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:54.046Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:54.154Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:54.154Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:54.818Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not an object (evaluating 'new o.URL(o.document.currentScript.src).hash.indexOf')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:54.818Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+  e (https://video.unrulymedia.com/native/native-loader.js:1)
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:56.268Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:56.268Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:56.908Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:56.908Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:56.908Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:56.908Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:57.047Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:57.048Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:57.102Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:57.103Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:59.033Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:59.033Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:59.742Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:59.742Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:59.742Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:59.742Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:59.783Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:59.783Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:59.787Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:45:59.787Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:02.216Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:02.217Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:03.520Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:03.520Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:03.524Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:03.524Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:03.781Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:03.781Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:03.829Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:03.829Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:05.326Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:05.326Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:06.310Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:06.310Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:06.311Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:06.311Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:06.355Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:06.355Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:06.366Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:06.366Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:07.121Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not an object (evaluating 'new o.URL(o.document.currentScript.src).hash.indexOf')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:07.121Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+  e (https://video.unrulymedia.com/native/native-loader.js:1)
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:08.347Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:08.347Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:09.097Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:09.097Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:09.098Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:09.098Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:09.151Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:09.151Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:09.171Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:09.171Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:09.986Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not an object (evaluating 'new o.URL(o.document.currentScript.src).hash.indexOf')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:09.986Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+  e (https://video.unrulymedia.com/native/native-loader.js:1)
+  (anonymous function) (https://video.unrulymedia.com/native/native-loader.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:11.628Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:11.628Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:12.779Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:12.779Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:12.779Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:12.779Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:12.813Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: Error running pending call: TypeError: undefined is not a constructor (evaluating '["global","service","global group","service group"].includes(e)')
+isValidValue@https://quantcast.mgr.consensu.org/cmp.js:1:24299
+initializeConfig@https://quantcast.mgr.consensu.org/cmp.js:1:44724
+init@https://quantcast.mgr.consensu.org/cmp.js:1:412857
+t@https://quantcast.mgr.consensu.org/cmp.js:1:423770
+executePendingCalls@https://quantcast.mgr.consensu.org/cmp.js:1:2871
+https://quantcast.mgr.consensu.org/cmp.js:1:213431
+t@https://quantcast.mgr.consensu.org/cmp.js:1:114
+https://quantcast.mgr.consensu.org/cmp.js:1:498
+global code@https://quantcast.mgr.consensu.org/cmp.js:1:507
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:12.813Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  r (https://quantcast.mgr.consensu.org/cmp.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:13.459Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:13.459Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:13.630Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:13.630Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:15.025Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: WHISK SDK ERROR: Whisk Analytics API request error. Reason: AbortError: Aborted
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:15.025Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  error (https://cdn.whisk.com/sdk/legacy.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:15.772Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: URLSearchParams
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:15.773Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:15.773Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: CE: multiple userscripts installed
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:15.773Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  global code (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:15.818Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: Error running pending call: TypeError: undefined is not a constructor (evaluating '["global","service","global group","service group"].includes(e)')
+isValidValue@https://quantcast.mgr.consensu.org/cmp.js:1:24299
+initializeConfig@https://quantcast.mgr.consensu.org/cmp.js:1:44724
+init@https://quantcast.mgr.consensu.org/cmp.js:1:412857
+t@https://quantcast.mgr.consensu.org/cmp.js:1:423770
+executePendingCalls@https://quantcast.mgr.consensu.org/cmp.js:1:2871
+https://quantcast.mgr.consensu.org/cmp.js:1:213431
+t@https://quantcast.mgr.consensu.org/cmp.js:1:114
+https://quantcast.mgr.consensu.org/cmp.js:1:498
+global code@https://quantcast.mgr.consensu.org/cmp.js:1:507
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:15.818Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  r (https://quantcast.mgr.consensu.org/cmp.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:16.016Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'CE2.debug("Starting userMain")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:16.017Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  userMain (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+  e (https://script.crazyegg.com/pages/scripts/0023/9190.js?439280:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:16.301Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-02-11T08:46:16.301Z] Session [c30557c0-4caa-11ea-aa68-973abe806dce] - page.onError - stack:
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  f (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+  (anonymous function) (https://prebid.s-onetag.com/43ee29b5-3746-4dfe-a6b6-6d34fc86b843/prebid.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
