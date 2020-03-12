@@ -12,13 +12,16 @@ class BbcSpider(scrapy.Spider):
     def parse(self,response):# reposen is the page content
         page = response.url.split("?")[-1]#get the last split element by -1 index
         filename = self.name+'-%s.json' % page
+        ingredients = 'not define yet'
+        steps = 'not define yet'
         for r in response.css('article'): #get all the recipe's article
             name = r.css(".teaser-item__title a::text").get()
             imageUrl = r.css(".teaser-item__image a::href").get()
             self.recipes.append(recipeObject(name,imageUrl,ingredients,steps))
-        # with open(filename, 'wb') as f:
-        #     f.write(response.body)
-        # self.log('Saved file %s' % filename)
+        with open(filename, 'wb') as f:
+            # f.write(response.body)
+            f.write(self.recipes)
+        self.log('Saved file %s' % filename)
 
     def getSteps(self,page):
 
@@ -30,7 +33,7 @@ class BbcSpider(scrapy.Spider):
 
 
 class recipeObject:    
-    def __init__(name,imageUrl,ingredients,steps):
+    def __init__(self,name,imageUrl,ingredients,steps):
         self.name = name
         self.imageUrl = imageUrl
         self.ingredients = ingredients
